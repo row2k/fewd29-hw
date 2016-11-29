@@ -1,0 +1,52 @@
+/* github @row2k*/
+
+body {
+  background-color: #09332A;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lincoln_Memorial_%288%29.jpg/1024px-Lincoln_Memorial_%288%29.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-shadow: 10px 0px 10px #111;
+  letter-spacing: 1px;
+}
+
+.button {
+    background-color: #ABFCEC;
+    border: none;
+    color: #09332A;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px 25px;
+}
+.button:hover {
+  background-color: #ddd000;
+}
+
+.rcorner_profile {
+  border-radius: 50px 5px;
+  background: #5dd9c1;
+  padding: 20px;
+}
+.rcorner_content {
+  border-radius: 5px 50px;
+  background: #56877d;
+  padding: 5px;
+}
+.top-padding {
+  padding-top: 3cm;
+}
