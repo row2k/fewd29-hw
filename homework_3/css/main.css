@@ -1,0 +1,90 @@
+/*Structure*/
+body {
+  width: 100%;
+}
+header{
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+	width: 100%;
+	/*padding: 2%;*/
+	border-color: #F9E42e;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+
+.logo-text{
+	color: #F9E42e;
+	line-height: 0.4;
+}
+
+.nav{
+	text-align: right;
+}
+
+.nav li {
+	list-style: none;
+	display: inline;
+	padding: 0 5px 0 5px;
+}
+
+.nav li:first-child,
+.nav li:nth-child(2){
+	font-family: " ", Arial, sans-serif;
+	font-weight: 800;
+	color: #ff0;
+}
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+}
+
+
+section{
+
+}
+
+
+footer{
+
+}
+
+
+.slogan{
+	background-color: #ccc;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	font-style: italic;
+  width: 100%;
+}
+
+.pic-background{
+	background-color: #ccc;
+	background-image: url("../images/coworking.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	padding: 10px;
+}
+
+.description{
+	background-color: rgba(255,255,255,0.7);
+	border: solid;
+	text-align: left;
+	padding: 10px;
+	float: right;
+	width: 40%;
+	height: 85%;
+
+}
+
+.item-header{
+
+}
+
+.button{
+
+}

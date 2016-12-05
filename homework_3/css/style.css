@@ -1,0 +1,145 @@
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+	padding: 10px;
+  /*bottom border*/
+	border-color: #fdf731;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+section {
+  margin: 0;
+}
+.clearfix:after {
+	content: "";
+  display:block;
+	clear: both;
+}
+
+.logo-text {
+  margin: 0;
+  color: #fdf731;
+  font-family: "Merriweather", Times, serif;
+  font-size:
+}
+
+.nav{
+  margin: 0;
+  margin-top: 20px;
+
+  font-size: 24px;
+	text-align: right;
+}
+
+.nav li {
+	display: inline;
+  list-style: none;
+	padding: 0 5px 0 5px;
+}
+
+.nav li:first-child,
+.nav li:nth-child(2){
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight: 800;
+}
+
+.slogan{
+	background-color: #c6c6c6;
+  font-family: "Merriweather", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+}
+
+.crossout {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/*FIX THIS*/
+.underline {
+  display: inline-block;
+  border-bottom: 2px;
+  border-color: #fdf731;
+  border-width: 2px;
+}
+
+.pic-background{
+	background-color: #ccc;
+	background-image: url("../images/coworking.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	padding: 10px;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.75);
+  float: right;
+  margin: 30px;
+  padding: 30px;
+  height: 75%;
+  width: 30%;
+}
+
+.button {
+  background-color: #999;
+  border-bottom: 2px;
+  border-radius: 5px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 28px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.col_3 {
+  margin:20px 0;
+  display: block;
+  float:left;
+  height: 100%;
+  padding: 2%;
+  width:29%;
+}
+
+.col_3:nth-child(2) {
+  border-color: #999;
+  border-style: solid;
+  border-width: 0 2px;
+}
+
+.copyright {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/*misc styles*/
+.h3_desc {
+  margin:0;
+  font-size: 32px;
+  padding: 10px,0;
+}
+.h3_col3 {
+  margin:0;
+  font-family: "Merriweather", Times, serif;
+  font-size: 24px;
+  padding: 10px,0;
+}
+.p_desc {
+  font-size: 22px;
+}
+
+.button_y {
+  background-color: #fdf731;
+}
