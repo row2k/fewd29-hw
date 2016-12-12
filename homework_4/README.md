@@ -1,6 +1,7 @@
 _Final Project Prospectus_
 # [Droso] Fruit Recognizer Playground
 Hi, I'm Droso :honeybee:, my full name is _drosophila melanogaster_, a common fruit fly. Actually tho, I'm just a simple robot that knows and learns about fruits. I'll recognize the fruit you give me, and if I'm wrong, you're welcome to teach me the correct name.
+
 ### Functionality
 * Droso learns the names of #manyfruits :apple::green_apple::tangerine::lemon::cherries::grapes::watermelon::strawberry::peach::melon::banana::pear::pineapple: from a training set
 * user input an image of a fruit (preferably solid color background)
@@ -9,6 +10,7 @@ Hi, I'm Droso :honeybee:, my full name is _drosophila melanogaster_, a common fr
 * if none apply, user can click "Nah, silly robot. Let me teach you." to reveal an input box, and user input the correct name
 * correct or user-corrected outcomes are stored and await admin to validate and append data
 * Droso uses the appended data in training set and re-train
+
 ### Stacks
 * Web Dev (js)
   * MongoDB
