@@ -23,3 +23,7 @@ Hi, I'm Droso :honeybee:, my full name is _drosophila melanogaster_, a common fr
   * Simple ML: scikit-learn
   * Deep Learning/NN: keras.py on theano.py
 * AWS EC2
+
+### AI Fallbacks
+Handwritten digit recognition. (kaggle)
+Leaf recognition. (kaggle)
