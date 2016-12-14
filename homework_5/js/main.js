@@ -4,17 +4,17 @@ $(document).ready(function() {
 
     var city = $("#city-type").val().toString().toLowerCase().trim();
     $('#city-type').val(''); //reset input
-    
+
     if (city ==="new york"||city==="new york city"||city==="nyc"){
-      $('body').addClass('nyc');
+      $('body').attr('class','nyc');
     } else if (city==="san francisco"||city==="sf"||city==="bay area"){
-      $('body').addClass('sf');
+      $('body').attr('class','sf');
     } else if (city == 'los angeles' || city == 'la' || city == 'lax') {
-      $('body').addClass('la');
+      $('body').attr('class','la');
     } else if (city == 'austin' || city == 'atx') {
-      $('body').addClass('austin');
+      $('body').attr('class','austin');
     } else if (city == 'sydney' || city == 'syd') {
-      $('body').addClass('sydney');
+      $('body').attr('class','sydney');
     }
   });
 });
